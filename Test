@@ -1,0 +1,17 @@
+<span id="username"></span><input type="button" id="loginbutton" value="Processing" onclick="
+    if(this.value === 'Login'){
+        gAuth.signIn().then(function(){
+            loginStatement();
+        });
+    } else {
+        gAuth.signOut().then(function(){
+            loginStatement();
+        });
+    }
+">
+
+<p>
+    <strong>aiotinterface@gmail.com | +82 (0)10-3833-2458</strong>
+</p>
+
+<br><img src="./source/image/Another.jpg" width="100%"><br><br>
